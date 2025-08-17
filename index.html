@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width,initial-scale=1.0">
+    <title>redirecting</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+<div class="loader">
+  <div class="spinner">
+    <div class="dot dot1"></div>
+    <div class="dot dot2"></div>
+    <div class="dot dot3"></div>
+  </div>
+</div>
+<div>
+    <i class="b8">youll be redirected shortly</i>
+</div>
+<style>
+.loader{
+  display:flex;
+  justify-content:center;
+  top:284px;
+  position:relative;
+}
+.dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: blue;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.dot1 {
+  animation: bounce 0.5s infinite;
+}
+
+.dot2 {
+  animation: bounce 0.5s infinite 0.2s;
+}
+
+.dot3 {
+  animation: bounce 0.5s infinite 0.4s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+body {
+background-color:black;
+}
+.fade-out{
+    opacity:0;
+    Transition:opacity0.5sec
+}
+.b8{
+    font weight:700;
+    font-size:28px;
+    color:yellow;
+}
+b8:hover{
+    cursor: pointer;
+    Color:yellor;
+    transition: ease 1000;
+}
+</style>
+<script type="text/JavaScript" src="bless.js"></script>
+</body>
+</html>
